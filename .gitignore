@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+
+# Keep safe example
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local binaries
+minikube-darwin-arm64
+
+# Kubernetes / local environment
+*.kubeconfig
+
+# Secrets / certificates
+*.key
+*.crt
+*.p12
+*.pfx

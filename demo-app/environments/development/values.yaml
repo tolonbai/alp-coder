@@ -1,0 +1,5 @@
+ingress:
+  enabled: true
+  hostname: alp-coder.local
+
+replicaCount: 1
